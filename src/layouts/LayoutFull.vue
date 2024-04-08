@@ -1,9 +1,7 @@
-<script setup> 
-import {useLayout} from '@/components/layout';
-const {layout} = useLayout();
+<script setup>
+  import { useLayout } from '@/composables/layout';
+  const { layout } = useLayout();
 </script>
-
 <template>
-<component :is="layout"/>
-
+  <component :is="layout" />
 </template>
